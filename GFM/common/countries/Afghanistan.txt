@@ -1,4 +1,9 @@
 color = { 92  148  152 }
+absolute_monarchy = { 60 170 170 }
+parliamentary_republic = { 130 196 196  }
+fascist_dictatorship = { 0  0  0 }
+presidential_dictatorship = { 130 196 196 }
+proletarian_dictatorship = { 130 50 50 }
 graphical_culture = MiddleEasternGC
 
 party = {

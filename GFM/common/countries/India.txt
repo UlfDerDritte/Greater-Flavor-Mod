@@ -1,6 +1,12 @@
 color = {247 155 53}
 colonial_company = { 207 20 43 }
 dominion = { 207 20 43 }
+fascist_dictatorship = { 157 115 63 }
+absolute_monarchy = { 247 135 53 }
+absolute_empire = { 247 135 53 }
+parliamentary_republic = { 247 185 53 }
+presidential_dictatorship = { 247 185 53 }
+proletarian_dictatorship = { 247 85 53 }
 graphical_culture = IndianGC
 
 party = {

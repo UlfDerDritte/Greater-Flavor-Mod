@@ -326,7 +326,7 @@ categories =  {
 
         combat_width = -0.5
 
-        min_build_railroad = 3
+        min_build_railroad = 2
         #immigrant_attract = -0.8
         attrition = 1
     }
@@ -1273,8 +1273,8 @@ categories =  {
     jerusalem = {
         movement_cost = 1.0
         color = { 22 44 66 }
-        farm_rgo_size = 0.0
-        farm_rgo_eff = 0.0
+        farm_rgo_size = 0.2
+        farm_rgo_eff = 0.00
         mine_rgo_size = 0.0
         mine_rgo_eff = 0.0
         supply_limit = 10
@@ -1298,7 +1298,7 @@ categories =  {
         mine_rgo_size = -0.1
         mine_rgo_eff = -0.1
         supply_limit = 2
-        min_build_railroad = 2
+        min_build_railroad = 1
         attrition = 1
     }
 

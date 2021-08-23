@@ -1,4 +1,10 @@
-color = { 166  224  85 }
+color = { 166 224 85 }
+fascist_dictatorship = { 70 100 25 }
+absolute_monarchy = { 166 224 85 }
+absolute_empire = { 166 224 85  }
+parliamentary_republic = { 166 224 115 }
+presidential_dictatorship = { 166 224 115 }
+proletarian_dictatorship = { 240 60 55 }
 graphical_culture = BritishGC
 
 party = {

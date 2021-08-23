@@ -1,4 +1,9 @@
-color = { 124 40 30 }
+color = { 95 131 145 }
+absolute_monarchy = { 95 150 180 }
+parliamentary_republic = { 150 160 180  }
+fascist_dictatorship = { 0  70  80 }
+presidential_dictatorship = { 150 160 180 }
+proletarian_dictatorship = { 170 80 120 }
 graphical_culture = AustriaHungaryGC
 
 party = {

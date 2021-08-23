@@ -1,4 +1,9 @@
 color = { 220  138  57 }
+absolute_monarchy = { 255 70 0 }
+parliamentary_republic = { 230 150 100  }
+fascist_dictatorship = { 100  60  0 }
+presidential_dictatorship = { 230 150 100 }
+proletarian_dictatorship = { 210 30 0 }
 graphical_culture = EuropeanGC
 
 party = {

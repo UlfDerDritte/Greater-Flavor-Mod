@@ -1,4 +1,10 @@
-color = { 160  30  154 }
+color = { 160 30 154 }
+fascist_dictatorship = { 80 50 70 }
+absolute_monarchy = { 140 30 154 }
+absolute_empire = { 140 30 154 }
+parliamentary_republic = { 160 30 154 }
+presidential_dictatorship = { 160 30 154 }
+proletarian_dictatorship = { 180 30 80 }
 graphical_culture = MiddleEasternGC
 
 party = {

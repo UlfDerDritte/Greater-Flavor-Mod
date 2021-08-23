@@ -1,4 +1,10 @@
-color = { 150  212  214 }
+color = { 150 212 214 }
+fascist_dictatorship = { 30 70 90 }
+absolute_monarchy = { 100 170 200 }
+absolute_empire = { 100 170 200 }
+parliamentary_republic = { 175 205 230 }
+presidential_dictatorship = { 175 205 230 }
+proletarian_dictatorship = { 190 50 40 }
 graphical_culture = EuropeanGC
 
 
@@ -41,7 +47,7 @@ party = {
     ideology = socialist
 
     social_policy = welfare_state
-    economic_policy = planned_economy
+    economic_policy = state_capitalism
     trade_policy = free_trade
     religious_policy = pluralism
     citizenship_policy = full_citizenship

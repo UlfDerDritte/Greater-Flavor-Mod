@@ -1,7 +1,7 @@
 color = { 20 50 210 }
-proletarian_dictatorship = { 0 0 153 }
+proletarian_dictatorship = { 90 10 60 }
 fascist_dictatorship = { 0 0 153 }
-presidential_dictatorship = { 0 0 153 }
+presidential_dictatorship = { 80 110 153 }
 graphical_culture = FrenchGC
 
 party = {

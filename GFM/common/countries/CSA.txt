@@ -1,5 +1,10 @@
 graphical_culture = ConfederateGC
 color = { 190  186  202 }
+absolute_monarchy = { 255 255 255 }
+parliamentary_republic = { 150 150 190  }
+fascist_dictatorship = { 80  80  130 }
+presidential_dictatorship = { 150 150 190 }
+proletarian_dictatorship = { 130 80 80 }
 
 party = {
     name = "CSA_radical"

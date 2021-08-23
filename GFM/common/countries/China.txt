@@ -1,4 +1,9 @@
 color = { 255  234  154 }
+absolute_monarchy = { 255  190  100 }
+parliamentary_republic = { 194 155 100  }
+fascist_dictatorship = { 100  60  40 }
+presidential_dictatorship = { 194 155 100 }
+proletarian_dictatorship = { 160 30 30 }
 graphical_culture = ChineseGC
 
 party = {

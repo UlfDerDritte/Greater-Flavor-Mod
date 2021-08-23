@@ -777,6 +777,7 @@ highlander_raids = {
 
 jewish_farms = {
     farm_rgo_size = 2
+    mine_rgo_size = 2
     icon = 13
 }
 
@@ -4784,7 +4785,7 @@ social_spen_cleanup = {
 	icon = 10
 }
 
-francisco_morázan = {
+francisco_morï¿½zan = {
     prestige = 0.010
     org_regain = 0.05
     icon = 3
