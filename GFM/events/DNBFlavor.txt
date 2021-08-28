@@ -28,7 +28,7 @@ country_event = {
     mean_time_to_happen = {
         months = 3
         modifier = {
-            factor = 0.8
+            factor = 0.3
             NOT = {
                 any_state = {
                     any_owned_province = { is_core = HUN }
@@ -1551,6 +1551,12 @@ country_event = {
         SIE = {
             all_core = { add_core = DNB }
         }
+        any_owned = {
+            limit = {
+                is_core = ROM
+            }
+            add_core = DNB
+        }
         662 = { add_core = DNB }
         663 = { add_core = DNB }
         any_pop = {
@@ -1581,6 +1587,8 @@ country_event = {
         name = "EVT98692OPTA"
         clr_global_flag = full_croatian_approval
         add_accepted_culture = croat
+        add_accepted_culture = serb
+        add_accepted_culture = bosniak
         CRO = {
             all_core = { add_core = DNB }
         }
@@ -1592,8 +1600,21 @@ country_event = {
                 all_core = { remove_core = HUN }
             }
         }
+        any_owned = {
+            limit = {
+                OR= {
+                    is_core = SER
+                    is_core = BOS
+                    is_core = MON
+                    province_id = 850
+                }
+            }
+            add_core = DNB
+        }
         any_pop = {
             limit = { has_pop_culture = croat }
+            limit = { has_pop_culture = serb }
+            limit = { has_pop_culture = bosniak }
             militancy = -4
             consciousness = -4
         }
@@ -1690,6 +1711,7 @@ country_event = {
         name = "EVT98695OPTA"
         clr_global_flag = full_polish_approval
         add_accepted_culture = polish
+        add_accepted_culture = ukrainian
         GLM = {
             all_core = { add_core = DNB }
         }

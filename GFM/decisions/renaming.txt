@@ -87,6 +87,10 @@ political_decisions = {
                 primary_culture = serb
                 tag = SER
                 tag = YUG
+                AND = {
+                    tag = DNB
+                    accepted_culture = serb
+                }
             }
             owns = 2538
             owns = 791
@@ -125,6 +129,10 @@ political_decisions = {
             owns = 2538
             owns = 791
             owns = 792
+            NOT = {
+                tag = DNB
+                accepted_culture = serb
+            }
             NOT = { has_global_flag = vojvodina_rename_hun }
         }
 
@@ -587,6 +595,10 @@ political_decisions = {
             owns = 661
             owns = 2533
             owns = 660
+            NOT = {
+                tag = DNB
+                accepted_culture = romanian
+            }
             NOT = { has_global_flag = northern_transylvania_rename_hun }
         }
 
@@ -614,7 +626,13 @@ political_decisions = {
     northern_transylvania_rename_rom = {
         picture = gtfo
         potential = {
-            primary_culture = romanian
+            OR = {
+                primary_culture = romanian
+                AND = {
+                    tag = DNB
+                    accepted_culture = romanian
+                }
+            }
             owns = 651
             owns = 654
             owns = 661
@@ -699,6 +717,10 @@ political_decisions = {
             owns = 656
             owns = 657
             owns = 659
+            NOT = {
+                tag = DNB
+                accepted_culture = romanian
+            }
             NOT = { has_global_flag = southern_transylvania_rename_hun }
         }
 
@@ -727,7 +749,13 @@ political_decisions = {
     southern_transylvania_rename_rom = {
         picture = gtfo
         potential = {
-            primary_culture = romanian
+            OR = {
+                primary_culture = romanian
+                AND = {
+                    tag = DNB
+                    accepted_culture = romanian
+                }
+            }
             owns = 647
             owns = 655
             owns = 656
@@ -848,6 +876,7 @@ political_decisions = {
             OR = {
                 primary_culture = hungarian
                 tag = KUK
+                tag = DNB
             }
             owns = 633
             owns = 634
@@ -855,6 +884,10 @@ political_decisions = {
             owns = 950
             owns = 3332
             owns = 3318
+            NOT = {
+                tag = DNB
+                accepted_culture = slovak
+            }
             NOT = { has_global_flag = slovakia_rename_hun }
         }
 
@@ -1103,6 +1136,10 @@ political_decisions = {
             OR = {
                 primary_culture = russian
                 primary_culture = ukrainian
+                AND = {
+                    tag = DNB
+                    accepted_culture = ukrainian
+                }
             }
             owns = 702 #Lemberg
             owns = 953
@@ -1133,10 +1170,6 @@ political_decisions = {
         potential = {
             OR = {
                 primary_culture = polish
-                AND = {
-                    tag = DNB
-                    accepted_culture = polish
-                }
 				tag = HAI
                 tag = WSF
             }
@@ -1867,6 +1900,7 @@ political_decisions = {
             OR = {
                 primary_culture = hungarian
                 tag = KUK
+                tag = DNB
             }
             owns = 642
             NOT = { has_global_flag = transdanubia_rename_hun }
@@ -1924,6 +1958,7 @@ political_decisions = {
             OR = {
                 primary_culture = hungarian
                 tag = KUK
+                tag = DNB
             }
             owns = 641
             NOT = { has_global_flag = central_hungary_rename_hun }
@@ -2003,6 +2038,10 @@ political_decisions = {
             OR = {
                 primary_culture = croat
                 tag = YUG
+                AND = {
+                    tag = DNB
+                    accepted_culture = croat
+                }
             }
             owns = 771
             owns = 772
@@ -2099,6 +2138,10 @@ political_decisions = {
             }
             owns = 771
             owns = 772
+            NOT = {
+                tag = DNB
+                accepted_culture = croat
+            }
             NOT = { has_global_flag = croatia_rename_hun }
         }
 
@@ -2172,6 +2215,10 @@ political_decisions = {
             OR = {
                 primary_culture = croat
                 tag = YUG
+                AND = {
+                    tag = DNB
+                    accepted_culture = croat
+                }
             }
             owns = 777
             owns = 779
@@ -2236,6 +2283,10 @@ political_decisions = {
             }
             owns = 777
             owns = 779
+            NOT = {
+                tag = DNB
+                accepted_culture = croat
+            }
             NOT = { has_global_flag = slavonia_rename_hun }
         }
 
@@ -2302,6 +2353,10 @@ political_decisions = {
             OR = {
                 primary_culture = croat
                 tag = YUG
+                AND = {
+                    tag = DNB
+                    accepted_culture = croat
+                }
             }
             owns = 780
             owns = 781

@@ -8027,6 +8027,11 @@ country_event = {
             tag = LTN
             tag = SPC
 			tag = HAI
+			tag = DNB
+            AND = {
+                tag = CAL
+                CAL = { has_country_flag = emperornorton }
+            }
         }
     }
     option = {
@@ -8123,6 +8128,11 @@ country_event = {
             tag = LTN
             tag = SPC
 			tag = HAI
+			tag = DNB
+            AND = {
+                tag = CAL
+                CAL = { has_country_flag = emperornorton }
+            }
         }
     }
     option = {
@@ -8219,6 +8229,7 @@ country_event = {
             tag = LTN
             tag = SPC
 			tag = HAI
+			tag = DNB
             AND = {
                 tag = CAL
                 CAL = { has_country_flag = emperornorton }
